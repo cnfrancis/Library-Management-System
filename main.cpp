@@ -75,7 +75,4 @@ int main()
 	ptrLibrary->printCatalogSummary();
 	cout << endl;
 	ptrLibrary->printBorrowersSummary();
-	
-	
-	
 }
