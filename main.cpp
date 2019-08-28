@@ -52,6 +52,7 @@ int main()
 		ptrLibrary->addNewMember(&ptrBorrowers[counter]);
 		counter++;
 	}
+	
 	// LOANING BOOKS TO MEMBER
 	ptrLibrary->addBookToMember(ptrBooks[0], ptrBorrowers[4].getBorrowerID(), 1, 10, 2019);
 	ptrLibrary->addBookToMember(ptrBooks[1], ptrBorrowers[4].getBorrowerID(), 15, 10, 2019);
@@ -65,11 +66,9 @@ int main()
 	ptrLibrary->addBookToMember(ptrBooks[7], ptrBorrowers[1].getBorrowerID(), 1, 9, 2019);
 	ptrLibrary->addBookToMember(ptrBooks[8], ptrBorrowers[3].getBorrowerID(), 15, 9, 2019);
 	ptrLibrary->addBookToMember(ptrBooks[9], ptrBorrowers[2].getBorrowerID(), 27, 9, 2019);
-
-
 	
 	cout << endl;
-	// RETURN BOOK, Wealth of Nations
+	
 	ptrLibrary->removeBookFromMember(ptrBooks[0], ptrBorrowers[4].getBorrowerID());
 	cout << endl;
 
